@@ -14,3 +14,4 @@ def oxford_comma(array)
     puts str
   end
 end
+oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits"])
