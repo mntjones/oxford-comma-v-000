@@ -11,7 +11,5 @@ def oxford_comma(array)
       i +=1
     end
     str = str + "and " + array[array.size-1]
-    puts str
   end
 end
-oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits"])
