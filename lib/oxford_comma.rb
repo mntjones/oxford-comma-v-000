@@ -6,11 +6,11 @@ def oxford_comma(array)
   else
     i=0
     str = ""
-    while i < array.size-2
+    while i < array.size-1
       str << array[i] + ", "
       i +=1
     end
-    str + ", and " + array[array.size-1]
+    str = str + ", and " + array[array.size-1]
     puts str
   end
 end
