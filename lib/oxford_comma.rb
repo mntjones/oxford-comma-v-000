@@ -4,6 +4,12 @@ def oxford_comma(array)
   elsif array.size == 2
     array.join(" and ")
   else
-    array.join(", ")
+    i=0
+    str = ""
+    while i < array.size-2
+      str << array[i] + ", "
+      i +=1
+    end
+    str + ", and " + array[array.size-1]
   end
 end
