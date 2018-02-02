@@ -11,5 +11,6 @@ def oxford_comma(array)
       i +=1
     end
     str + ", and " + array[array.size-1]
+    puts str
   end
 end
